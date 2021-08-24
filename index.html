@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Finding Shortest Path</title>
+    <link rel="icon" href="iconn.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -15,11 +16,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: rgb(70, 172, 172);">
 
-        <img src="https://codingblocks.com/assets/images/cb/cblogo.png" width="124" height="45"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Edsger_Wybe_Dijkstra.jpg" width="60" height="80"
             class="d-inline-block align-top" alt="">
-        Least time travel path project
+        <h2 style="color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif;"><b>Least time travel path project
+            <b><h2>
 
     </nav>
     <div id="container">
@@ -29,7 +31,7 @@
             <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
             </span>
             <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
-                Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
+                Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: rgb(243, 18, 18)"></i><br>
                 Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
                 Click on solve to get Solution !!
             </span>
@@ -37,10 +39,10 @@
         </div>
     </div>
 
-    <div>
-        <br>
+    <div id="parent">
+     
         <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
-        <br>
+     
         <button type="button" class="btn btn-success" id="solve">Solve</button>
     </div>
 </body>
